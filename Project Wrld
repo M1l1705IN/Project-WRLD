@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link ref="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Project Kid</title>
+<style>
+body
+ {
+   background-image:linear-gradient(to bottom, magenta, fuchsia ,teal);
+
+ }
+div 
+    {
+width:100px;
+height:150px;
+background: dodgerblue;
+transition-duration:5s;
+transition-property:width,height,background;
+overflow: hidden;
+margin-bottom :40px;
+margin:0px auto;
+box-shadow:4px 4px solid teal;
+}
+div:hover
+ {
+height:100%;
+width:400px;
+background:grey;
+}
+a
+   {
+     font-family:serif;
+     font-size:16px;
+     font-weight:bold;
+      text-decoration:none;
+    color:magenta;
+   margin-left:10px;
+      }
+h1
+ {
+   height:80px; 
+  width:400px;
+background:lightgreen;
+text-align:center;
+padding-top:40px;
+
+
+}
+hr{ 
+padding:2px;
+ background:white;
+}
+a {
+   color:white;
+}
+select{
+height:40px;
+width:80px;
+border-radius:5px;
+margin-left:40%;
+border: 2px solid red;
+outline:none;
+border:none;
+padding:7px;
+}
+input
+   {
+  height:50px;
+width:300px;
+border:2px solid grey;
+border-radius:10px 0px 0px 10px;
+margin-left:40px;
+padding-right:5px;
+outline: none;
+border:none;
+padding:10px;
+}
+span {
+      background:lightgrey;
+   padding:15px;
+
+width:20px;
+color:white;
+border-radius:0px 10px 10px 0px;
+ 
+}
+div a{
+ color:red;
+ font-family:serif;
+font-weight:bold;
+font-size:16px;
+text-decoration :none;
+text-align:center;
+}
+ #true{
+        font-size:12px;
+        margin-bottom:70px;
+       }
+
+h3
+{ 
+color:#801D76;
+font-family: serif;
+text-decoration: none;
+text-align:center;
+}
+p
+{
+font-family:serif;
+font-size:16px;
+color:#80202A;
+padding-left:12px;
+padding-top:13px;
+}
+img
+{
+height:450px;
+width:320px;
+border:none;
+border-radius:15px;
+padding-left:10px;
+}
+#Intro
+    {
+   font-family:serif;
+font-size:26px;
+color:#802C46;
+
+}
+audio
+  {
+  height:40px;
+  width:250px;
+margin-left:10px;
+}
+video
+{
+  height:450px;
+width:350px;
+margin-left:10px;
+
+}
+</style>
+</head>
+<body>
+<div>
+<h1>Project WRLD</h1>
+<a href="#">Home</a> <a href="#">Music</a> <a href="#">Video</a> <a href="#">Entertainment</a> <a href="#">PW TV</a>
+<hr>
+<a href="#">NEWS</a> | <a href="#">PW LIST</a> |<a href="#">DJ Mix</a> |<a href="#">TALK ZONE</a> | <a href="#">SPORTS</a><br>
+<select>
+<option value="More">More</option>
+<option value="history">History</option>
+</select>
+<br><br>
+<input type="search" placeholder="Search Project WRLD"><span>GO</span><br><br>
+<br>
+<center>
+<h4><a href="#">Upload Your Songs</a> | <a href="#">Advertise On PW</a> | <a href="#">Contact Us</a>
+</center>
+<img src="Pictures/facebook/images-1.jpg" alt="Picture Of Juice WRLD"/>
+<p id="Intro">Juice Wrld Biography, Net worth, Career, Family, Death</p>
+
+<h1>Brief History Of Juice WRLD</h1>
+<p> Juice WRLD became a Top Ten hitmaker delivering introspective lyrics atop melodic production, with echoes of Travis Scott and Post Malone. His heartsick 2018 debut Goodbye & Good Riddance (2018), home to his biggest hit "Lucid Dreams," reflected a wide range of stylistic influences: R&B instrumentation, dreamy beats, and even indie rock melodicism. The momentum built by "Lucid Dreams" helped land Juice's sophomore effort A Death Race for Love (2019) at the top of the charts. Months later, at the height of his mainstream popularity, he tragically passed away after suffering a medical emergency at Chicago's Midway Airport; he had just turned 21. At the time of his death, Juice had three singles in the Hot 100 and both official LPs in the Top 100. Born Jarad Higgins in 1998, the Calumet Park musician grew up playing piano, drums, and so on</p>
+<img src="Pictures/facebook/images.jpg" alt="Juice WRLD picture"/>
+<h3>Who Is Juice WRLD?</h3>
+<p> Juice Wrld was an American songwriter, rapper, and singer from Chicago, Illinois. He was born on December 2, 1998, and his birth name is Jared Anthony Higgins. His musical name was Juice Wrld, (though the main pronunciation was "Juice World"). One of his major songs was “Lucid Dreams” and it has been played over a billion times on Spotify, which is a music streaming platform.</p>
+<h3>Juice WRLD Biography</h3>
+<p>Juice Wrld was born on 2nd December 1998 in Chicago, Illinois. Though in 1999, he was relocated to Homewood, Illinois, where he went to Homewood-Flossmoor High School.
+
+Alongside his elder brother, his mother trained and raised them up, because his father left after divorcing his mother when he was just three(3) years old.</p>
+<h3>Juice WRLD's songs</h3>
+<hr><br><br>
+<audio controls loop>
+<source src="Pictures/facebook/Juice-Wrld-2.mp3" type="audio/mp3">
+</audio> <label for="Cursed"><p>This song was titled <b><em><u>Cursed</u></em></b></label></p>
+<hr><br><br>
+<audio controls loop>
+<source src="Pictures/facebook/Juice-Wrld-3.mp3" type="audio/mp3">
+</audio> <label for="Robbery"><p>This song was titled <b><em><u>Robbery</u></em></b></label></p>
+
+<hr><br><br>
+
+<audio controls loop>
+<source src="Pictures/facebook/Juice-Wrld-4.mp3" type="audio/mp3">
+</audio> <label for="Wishing well"><p>This song was titled <b><em><u>Wishing Well</u></em></b></label></p>
+<hr><br><br>
+<audio controls loop>
+<source src="Pictures/facebook/Juice-Wrld-6.mp3" type="audio/mp3">
+</audio> <label for="Empty"><p>This song was titled <b><em><u>Empty</u></em></b></label></p>
+<hr><br><br>
+
+<h3>Some Of the Juice WRLD's Video</h3>
+<hr><br><br>
+<video controls loop>
+<source src="Pictures/facebook/Lucid.mp4" type="video/mp4">
+</video> <label for="Empty"><p>This Song Video was titled <b><em><u>Lucid Dream</u></em></b></label></p>
+<hr><br><br>
+<video controls loop>
+<source src="Pictures/facebook/Bandit.mp4" type="video/mp4">
+</video> <label for="Empty"><p>This Song Video was titled <b><em><u>Bandit</u></em></b></label></p>
+<hr><br><br>
+<video controls loop>
+<source src="Pictures/facebook/ComeGo.mp4" type="video/mp4">
+</video> <label for="ComeGo"><p>This Song Video was titled <b><em><u>Come and Go</u></em></b></label></p>
+<hr><br><br>
+<a href="#">Leave a comment</a> | <a href="#">Biography And Networth</a> | <a href="#">Others Celebrities Biography</a>
+<br><br><br>
+<br>
+<br><br><br><br><br>
+</div>
+</body>
+</html>
